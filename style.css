@@ -1,0 +1,187 @@
+body{
+    margin:0;
+    padding: 0;
+    /*background: radial-gradient(orange,red);*/
+    transition: background 0.5s ease;
+    background-size:100% 100%;
+    
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    
+    position:relative;
+    width:100%;
+    height: 100%;
+}
+
+.container1{
+    height: 35vw;
+    width: 20vw;
+    top:1vw;
+    position: absolute;
+    left:10%;
+    border-style:solid;
+    border-color:#B8860B;
+
+}
+.container2{
+    height: 35vw;
+    width: 20vw;
+    top:1vw;
+    position: absolute;
+    right:10%;
+    border-style:solid;
+    border-color:#B8860B;
+    
+}
+.container3{
+    height: 35vw;
+    width: 22vw;
+    top:1vw;
+    position: absolute;
+    right:38%;
+    
+
+}
+#rolled1{
+    position: absolute;
+    top:50%;
+    height: 5vw ;
+    width: 22vw;
+    text-align:center ;
+    font-size: 2vw;
+    font-variant-caps: petite-caps;
+    color:white;
+}
+#rolled2{
+    position: absolute;
+    top:50%;
+    height: 5vw ;
+    width: 22vw;
+    text-align:center ;
+    font-size: 2vw;
+    font-variant-caps: petite-caps;
+    color:white;
+}
+.container1 .box1{
+    position: relative;
+    font-style:normal;
+    font-size: 4vw;
+    text-align: center;
+    color:white;
+    
+}
+.container2 .box2{
+    position: relative;
+    font-style:normal;
+    font-size: 4vw;
+    text-align: center;
+    color:white;
+}
+
+.container3 .images{
+    border-radius: 18px;
+    height: 6vw;
+    width: 6vw;
+}
+.container3 .images2{
+    border-radius: 18px;
+    height: 6vw;
+    width: 6vw;
+}
+.container3 .pic1 {
+    
+    position: absolute;
+    width: 6vw;
+    top:40%;
+    left:20%
+    
+}
+
+.container3 .pic2{
+    
+    position: absolute;
+    width: 6vw;
+    top:40%;
+    right:20%;
+}
+.container3 .button2{
+    position: absolute;
+    bottom: 20%;
+    right:16%;
+    height: 5vw;
+    width: 15vw;
+    border:none;
+    text-decoration: none;
+    color:rgb(216, 6, 6);
+    background-color: black;
+    text-align: center;
+    font-size:4vw;
+    border-radius: 4vw;
+    animation: myframes 3s ease-in 0s infinite;
+    border: none;
+    outline: none;
+    
+    
+}
+.container3 .restart-button{
+    position: absolute;
+    top: 100%;
+    right:16%;
+    height: 5vw;
+    width: 15vw;
+    border:none;
+    text-decoration: none;
+    color:rgb(216, 202, 6);
+    background-color: rgb(36, 56, 37);
+    text-align: center;
+    font-size:4vw;
+    border-radius: 4vw;
+    /* animation: myframes 3s ease-in 0s infinite; */
+    border: none;
+    outline: none;
+    
+    
+}
+
+.score{
+    position: absolute;
+    top: 15%;
+    left:25%;
+    text-align: center;
+    font-size: 3vw;
+    font-family: fantasy;
+    color:white;
+    
+}
+.score2{
+    position: absolute;
+    top: 15%;
+    left:25%;
+    text-align: center;
+    font-size: 3vw;
+    font-family: fantasy;
+    color:white;
+    
+}
+
+
+
+
+
+@keyframes myframes {
+    0% {
+        background: rgb(7, 6, 6)
+    }
+
+    50% {
+        background: rgb(167, 141, 141)
+    }
+
+    100% {
+
+        background: black
+    }
+}

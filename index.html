@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <link rel="Stylesheet" href="style.css">
+    <title>Dice Game</title>
+</head>
+
+<body background="505034.jpg">
+
+    <div class="container" >
+        <div class="container1">
+            <div class="head">
+                <div class="box1">Player 1</div>
+                <div class="score" id="score"></div>
+                <div id="rolled1" class="roller1"></div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="head2">
+                <div class="box2">Player 2</div>
+                <div class="score2" id="score2"></div>
+                <div id="rolled2" class="roller2"></div>
+            </div>
+        </div>
+        <div class="container3">
+            <div id="rolled1"></div>
+            <div class="pic1">
+                <img src="dice1.png" class="images" name="canvas" />
+            </div>
+            <div class="score" id="score"></div>
+            <div class="score2" id="score2"></div>
+            
+            <div class="pic2">
+                <img src="dice1.png" class="images2" name="second" />
+            </div>
+            <button id="diceRoll" class="button2">Roll</button>
+            <button onclick="restartGame()" class="restart-button" id="restartGame">Restart</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
